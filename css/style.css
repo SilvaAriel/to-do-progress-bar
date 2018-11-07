@@ -1,0 +1,105 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+body {
+	height: 100%;
+	box-sizing: border-box;
+	margin: 0px;
+	padding-top: 13%;
+}
+
+h1 {
+	text-align: center;
+	margin: 0px 0px 10px 0px;
+	color: white;
+	width: 100%;
+	display: inline-block;
+	background-color: #006096;
+	font-size: 2.5em;
+}
+
+label {
+	display: inline-block;
+	width: 100%;
+	border-top: 1px solid #D3D3D3;
+	border-bottom: 1px solid #D3D3D3;
+}
+
+label:hover {
+	background-color: #006096;
+}
+
+label:hover a {
+	font-size: 1em;
+}
+
+#topBar {
+	position: fixed;
+	top: 0%;
+	width: 100%;
+	height: 160px;
+	padding: 0px 0px;
+	background-color: white;
+}
+
+#progressBarContainer {
+	margin: auto;
+	padding: 2px;
+	display: block;
+	width: 40%;
+	height: 35%;
+	border: 1px solid #FF7260;
+}
+
+#progressPercentage {
+	position: absolute;
+	top: 29%;
+	left: 49%;
+	color: white;
+	font-size: 25px;
+}
+
+.barDone {
+	display: block;
+	height: 100%;
+	float: left;
+	background-color: #009BF2;
+}
+
+.barUndone {
+	display: block;
+	height: 100%;
+	float: left;
+	background-color: #FF7260;
+}
+
+#toDo {
+	display: block;
+	margin: 10px auto;
+	width: 40%;
+	min-height: 50%;
+	color: #FF7260;
+	font-size: 2em;
+}
+
+#addToDo {
+	display: block;
+	margin: 10px auto;
+	width: 100%;
+	text-align: center;
+}
+
+#toDoList {
+	margin: 10px 30px;
+}
+
+.deleteButton {
+	float: right;
+	font-size: 0px;
+}
+
+.checked {
+	text-decoration: line-through;
+	color: #009BF2;
+}
